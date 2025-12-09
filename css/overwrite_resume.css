@@ -1,0 +1,39 @@
+/* 
+Alex Christensen
+IS 201 Section 001
+*/
+
+/* 
+This file overwrites the CSS from the bootstrap theme on the resume page
+*/
+
+header.new-head {
+    padding-top: calc(3rem + 20px);
+    padding-bottom: 1.5rem;
+}
+
+.resume-entry {
+    font-size: 1rem;
+}
+
+.resume-entry p {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   font-size: 0.95rem;
+}
+
+.resume-comp-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.resume-job-title {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.resume-entry li {
+    font-size: 0.87rem;
+}
